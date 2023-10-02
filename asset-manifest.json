@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/golang-lv-reflector/static/css/main.08ad69ad.css",
-    "main.js": "/golang-lv-reflector/static/js/main.699884e8.js",
-    "index.html": "/golang-lv-reflector/index.html",
-    "main.08ad69ad.css.map": "/golang-lv-reflector/static/css/main.08ad69ad.css.map",
-    "main.699884e8.js.map": "/golang-lv-reflector/static/js/main.699884e8.js.map"
+    "main.css": "/golang-lv-creator/static/css/main.d0075ab8.css",
+    "main.js": "/golang-lv-creator/static/js/main.573e7c7b.js",
+    "index.html": "/golang-lv-creator/index.html",
+    "main.d0075ab8.css.map": "/golang-lv-creator/static/css/main.d0075ab8.css.map",
+    "main.573e7c7b.js.map": "/golang-lv-creator/static/js/main.573e7c7b.js.map"
   },
   "entrypoints": [
-    "static/css/main.08ad69ad.css",
-    "static/js/main.699884e8.js"
+    "static/css/main.d0075ab8.css",
+    "static/js/main.573e7c7b.js"
   ]
 }
