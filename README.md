@@ -1,10 +1,10 @@
-# Golang Liquid Variable Reflector
+# Golang Liquid Variable Creator
 
-This app focuses on submitting golang, creating separate input boxes for easy access to copy and paste variables.
+This app focuses on submitting variable names, adding those names to the global golang template, creating separate input boxes for easy access to copy and paste variables.
 
 ## Features
 
-- Converts Golang HTML into separate inputs.
+- Converts variable names into golang scripts.
 - Converts Golang HTML within textarea into Mirrors to refer to the variables being stored.
 - Copy input inside textarea box and inputs.
 
