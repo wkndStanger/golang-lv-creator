@@ -35,7 +35,7 @@ const TextareaCard = () => {
 			<textarea name="textarea" id="textarea" ref={textCopyRef}></textarea>
 			<div className={classes["btn-create"]}>
 				<Button onClick={copyHandler}>Copy</Button>
-				<Button onClick={addTextHandler}>Create Inputs</Button>
+				<Button onClick={addTextHandler}>Create Inputs!</Button>
 			</div>
 			{errorStore && <p>{errorStore}</p>}
 		</Card>

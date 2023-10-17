@@ -1,6 +1,6 @@
 import React from "react";
 import { RootStateOrAny, useSelector } from "react-redux";
-import { copyActions } from "../../store/copy-slice";
+// import { copyActions } from "../../store/copy-slice";
 
 import classes from "./Inputs.module.css";
 
@@ -33,12 +33,15 @@ const Inputs = () => {
 							/>
 							<div className={classes["copy-alert"]}>Copyed!</div>
 						</div>
-						<div >
+						<div className={classes["on-focus"]}>
 							<input
 								type="text"
 								name="value"
+								value={obj.text.value}
+								onClick={inputCopyHandler.bind(null, obj.text.value)}
+								readOnly
 							/>
-							{/* <div className={classes["copy-alert"]}>Copyed!</div> */}
+							<div className={classes["copy-alert"]}>Copyed!</div>
 						</div>
 					</div>
 				);

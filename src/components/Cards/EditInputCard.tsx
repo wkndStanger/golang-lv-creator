@@ -5,7 +5,6 @@ import Inputs from "../Inputs/Inputs";
 
 import Card from "../UI/Card";
 import classes from "./EditInputCard.module.css";
-import Button from "../UI/Button";
 
 const EditInputCard = () => {
 	const copys = useSelector((state: RootStateOrAny) => state.copy.copys);
@@ -15,11 +14,9 @@ const EditInputCard = () => {
 	return (
 		<Card>
 			<form className={classes.inputForm}>
-				<h2>Input Copy Here:</h2>
-				
+				<h2>Edit Inputs Here:</h2>
 				<Inputs />
 			</form>
-			<Button className={classes.csvButton} >Download CSV</Button>
 		</Card>
 	);
 };
