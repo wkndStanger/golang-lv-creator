@@ -1,6 +1,6 @@
 {
-	"homepage": "https://wkndstanger.github.io/golang-lv-creator",
-	"name": "golang-lv-creator",
+	"homepage": "http://tsuipz.github.io/golang-lv-reflector",
+	"name": "golang-lv-reflector",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
